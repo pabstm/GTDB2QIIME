@@ -10,7 +10,7 @@ and should be done following: https://docs.qiime2.org/2021.8/
 <br><br>
 Running a pipeline would consist of:<br>
 -1. GTDB_ssu_download.py: to download recent GTDB ssu fasta files and taxonomy metadata<br>
--2. GTDB_protein_prep.py: to format GTDB ssu, with option to trim fragmented sequences below certain basepair length <br>
+-2. GTDB_ssu_prep.py: to format GTDB ssu into seperate taxonomy and fasta files, with option to trim fragmented sequences below certain basepair length <br>
 
 
 
